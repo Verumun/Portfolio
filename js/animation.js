@@ -136,6 +136,8 @@ function handleWindowResize() {
         projectSix.style.margin = "auto auto 0.5rem";
         projectSeven.style.width = "80%";
         projectSeven.style.margin = "auto auto 0.5rem";
+        projectEight.style.width = "80%";
+        projectEight.style.margin = "auto auto 0.5rem";
       } else if (window.innerWidth <= 1100) {
         blActive = "translateX(0) translateY(0)";
         blContent.style.transform = "translateX(0vw) translateY(0)";
@@ -165,6 +167,8 @@ function handleWindowResize() {
         projectSix.style.margin = "auto auto 0.5rem";
         projectSeven.style.width = "80%";
         projectSeven.style.margin = "auto auto 0.5rem";
+        projectEight.style.width = "80%";
+        projectEight.style.margin = "auto auto 0.5rem";
       } else {
         blActive = "translateX(10vw) translateY(7vh)";
         blContent.style.transform = "translateX(10vw) translateY(7vh)";
@@ -179,6 +183,7 @@ function handleWindowResize() {
         projectFive.style.width = "100%";
         projectSix.style.width = "100%";
         projectSeven.style.width = "100%";
+        projectEight.style.width = "100%";
       }
       break;
 
