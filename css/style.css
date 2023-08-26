@@ -39,6 +39,15 @@ p {
 
 #hero .title{
   /* font-weight: bold; */
+
+}
+
+#hero .title span{
+  font-size: 0.5rem;
+  text-transform: lowercase;
+  font-weight: bold;
+  /* letter-spacing: .2rem; */
+  font-style: italic;
 }
 
 .btn:hover{
