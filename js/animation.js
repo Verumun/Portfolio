@@ -114,6 +114,7 @@ function handleWindowResize() {
         blContent.style.height = "100vh";
         blContent.style.top = "0";
         blContent.style.display = "flex";
+        blContent.style.overflow = "scroll";
         blContent.style.alignItems = "center";
         blContent.style.justifyContent = "center";
         blContent.style.background = "var(--bg-transparent)";
